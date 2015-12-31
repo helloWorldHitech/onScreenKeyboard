@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="Main">
+	<child id="Transport">
+			<src>icn_transport.png</src>
+			<child id="Play">
+				<src>icn_play.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>A</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Stop">
+				<src>icn_play.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>B</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Return to Zero">
+				<src>icn_rtoz.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>C</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Cursor Left">
+				<src>icn_left.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>D</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Cursor Right">
+				<src>icn_right.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>F</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Loop Toggle">
+				<src>icn_loop.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>G</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+	</child>
+	<child id="Track">
+			<src>icn_track.png</src>
+			<child id="Select Up">
+				<src>icn_up.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>H</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Select Down">
+				<src>icn_down.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>I</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+			<child id="Plug-In">
+				<src>icn_plugin.png</src>
+				<goto>Main</goto>
+				<action>
+					<message_type>note</message_type>
+					<type>trigger</type>
+					<number>J</number>
+					<velocity>127</velocity>
+				</action> 
+			</child>
+	</child>
+</root>

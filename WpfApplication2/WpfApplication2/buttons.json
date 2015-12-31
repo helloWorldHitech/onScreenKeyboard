@@ -1,0 +1,191 @@
+{
+  "title": "Main",
+  "children": [
+    {
+      "title": "Transport",
+      "src": "..\\..\\buttons\\icn_transport.png",
+      "children": [
+        {
+          "title": "Play/Stop",
+          "src": "..\\..\\buttons\\icn_play.png",
+          "returnTo": "Main",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 1,
+            "qwertyKey": "^{c}",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Return to Zero",
+          "src": "..\\..\\buttons\\icn_rtoz.png",
+          "returnTo": "Main",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 2,
+            "qwertyKey": "E",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Cursor Left",
+          "src": "..\\..\\buttons\\icn_left.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 3,
+            "qwertyKey": "D",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Cursor Right",
+          "src": "..\\..\\buttons\\icn_right.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 4,
+            "qwertyKey": "C",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Loop Toggle",
+          "src": "..\\..\\buttons\\icn_loop.png",
+          "returnTo": "Main",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 5,
+            "qwertyKey": "B",
+            "velocity": 127
+          }
+        }
+      ]
+    },
+    {
+      "title": "File",
+      "src": "..\\..\\buttons\\icn_gui.png",
+      "children": [
+        {
+          "title": "Open",
+          "src": "..\\..\\buttons\\icn_loop.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 6,
+            "qwertyKey": "J",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Save",
+          "src": "..\\..\\buttons\\icn_solo.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "K",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Back",
+          "src": "..\\..\\buttons\\icn_up.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "L",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Forward",
+          "src": "..\\..\\buttons\\icn_down.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "M",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Confirm",
+          "src": "..\\..\\buttons\\icn_play.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "N",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Escape",
+          "src": "..\\..\\buttons\\icn_stop.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "O",
+            "velocity": 127
+          }
+        }
+      ]
+    },
+    {
+      "title": "Track",
+      "src": "..\\..\\buttons\\icn_track.png",
+      "children": [
+        {
+          "title": "Select Up",
+          "src": "..\\..\\buttons\\icn_up.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 6,
+            "qwertyKey": "F",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Select Down",
+          "src": "..\\..\\buttons\\icn_down.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "G",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Solo",
+          "src": "..\\..\\buttons\\icn_solo.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "H",
+            "velocity": 127
+          }
+        },
+        {
+          "title": "Mute",
+          "src": "..\\..\\buttons\\icn_mute.png",
+          "action": {
+            "messageType": "note",
+            "type": "trigger",
+            "number": 7,
+            "qwertyKey": "I",
+            "velocity": 127
+          }
+        }
+      ]
+    }
+  ]
+}
